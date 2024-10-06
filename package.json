@@ -42,6 +42,25 @@
     "vue": "^3.4.27",
     "vue-router": "^4.3.2",
     "zod": "^3.23.8",
-    "zod-to-json-schema": "^3.23.2"
+    "zod-to-json-schema": "^3.23.2",
+    "@langchain/cohere": "^0.2.1",
+    "@langchain/community": "^0.2.20",
+    "@langchain/core": "^0.2.31",
+    "@langchain/openai": "^0.2.5",
+    "@langchain/textsplitters": "^0.0.3",
+    "langchain": "^0.2.17",
+    "@vscode/markdown-it-katex": "^1.1.0",
+    "markdown-it": "^14.1.0"
+  },
+  "resolutions": {
+    "@langchain/core": "0.2.31"
+  },
+  "overrides": {
+    "@langchain/core": "0.2.31"
+  },
+  "pnpm": {
+    "overrides": {
+      "@langchain/core": "0.2.31"
+    }
   }
 }

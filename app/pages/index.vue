@@ -3,6 +3,7 @@
       <h1 class="text-5xl text-center">🔬</h1>
       <h1 class="text-xl font-bold text-center">osdata.space</h1>
       <p class="text-center">Visualize OSDR with AI</p>
+      <ChatInterface/>
   </div>
 </template>
 
