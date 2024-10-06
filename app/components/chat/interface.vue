@@ -5,7 +5,7 @@
       />
       <LoadingIndicator v-if="loading" />
       <div ref="inputRef" class="sticky bottom-0 flex flex-col items-center gap-2 bg-background mt-3">
-      <Input class="py-6 px-5 rounded-full bg-gray-100" v-model="message" placeholder="Search anything" @keydown.enter="handleSendMessage" />
+      <Input class="py-6 px-5 rounded-full" v-model="message" placeholder="Search anything" @keydown.enter="handleSendMessage" />
           <span class="text-xs text-center pb-3">OSData is powered by AI so it can make mistakes, always double check important information</span>
       </div>
     </div>
